@@ -1,19 +1,16 @@
 {
   "images" : [
     {
-      "filename" : "twiiter-logo-20@2x.png",
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "20x20"
     },
     {
-      "filename" : "twiiter-logo-20@3x.png",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "20x20"
     },
     {
-      "filename" : "twiiter-logo-29@2x.png",
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "29x29"
@@ -31,7 +28,6 @@
       "size" : "40x40"
     },
     {
-      "filename" : "twiiter-logo-40@3x.png",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "40x40"
@@ -43,12 +39,12 @@
       "size" : "60x60"
     },
     {
-      "filename" : "twiiter-logo-60@3x.png",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "60x60"
     },
     {
+      "filename" : "favor-icon.png",
       "idiom" : "ipad",
       "scale" : "1x",
       "size" : "20x20"

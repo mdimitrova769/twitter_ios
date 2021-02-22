@@ -22,17 +22,9 @@ class LoginViewController: UIViewController {
         if UserDefaults.standard.bool(forKey: "userLogedIn") == true {
             
             self.performSegue(withIdentifier: "loginToHome", sender: self)
-            
         }
-        
-        
-        
-        
-        
     }
-    
-    
-    
+
     @IBAction func onLoginButton(_ sender: Any) {
         
         let myUrl = "https://api.twitter.com/oauth/request_token"
@@ -47,15 +39,5 @@ class LoginViewController: UIViewController {
         })
         
     }
-    
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
